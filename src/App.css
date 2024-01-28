@@ -4,11 +4,39 @@
 
 .App-header {
   background-color: #20242b;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-body {
+  background-color: #20242b;
+  min-height: 79vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+.maintext {
+  margin-bottom: 0;
+}
+
+.numParticipantsButton {
+  background-color: rgb(0, 100, 0);
+  color: white;
+  font-size: xx-large;
+  border-style: hidden;
+  border-radius: 6px;
+  height: 70px;
+  width: 170px;
+  margin-top: 50px;
+  margin-inline: 15px;
+  display: inline;
 }
