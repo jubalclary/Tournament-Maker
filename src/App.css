@@ -40,3 +40,9 @@
   margin-inline: 15px;
   display: inline;
 }
+
+.bracketImage {
+  align-items: center;
+  margin-top: -300px;
+  width: 1200px;
+}

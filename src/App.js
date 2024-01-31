@@ -1,7 +1,7 @@
 import './App.css'
 import MainText from './Components/MainText'
 import SubText from './Components/SubText'
-import NumParticipantsButton from './Components/NumParticipantsButton'
+import NumParticipantsButtonsContainer from './Components/NumParticipantsButtonsContainer'
 
 function App() {
   return (
@@ -11,11 +11,7 @@ function App() {
         <SubText/>
       </header>      
       <main className="App-body">
-        <NumParticipantsButton participantNum='3 - 4' />
-        <NumParticipantsButton participantNum='5 - 8' />
-        <NumParticipantsButton participantNum='9 - 16' />
-        <NumParticipantsButton participantNum='17 - 32' />
-        <NumParticipantsButton participantNum='33 - 64' />
+        <NumParticipantsButtonsContainer />
       </main>
     </div>
   )
