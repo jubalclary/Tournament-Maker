@@ -40,7 +40,7 @@ function NumParticipantsButton (props) {
             <div style={{display: props.showButton ? 'inline' : 'none' }}>
                 <button onClick={handleButtonClick} className='numParticipantsButton'>{num}</button>
             </div>           
-            {showBracketImage && participants && <BracketImage participantNums={participants} />}
+            {showBracketImage && participants && <BracketImage participantNums={participants} showButton={true} />}
         </div>
     )
 }

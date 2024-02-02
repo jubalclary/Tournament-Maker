@@ -15,7 +15,7 @@
 
 .App-body {
   background-color: #20242b;
-  min-height: 79vh;
+  min-height: 89vh;
   display: block;
   flex-direction: column;
   align-items: center;
@@ -26,6 +26,11 @@
 
 .maintext {
   margin-bottom: 0;
+}
+
+h3 {
+  margin-top: 0;
+  padding-top: 50px;
 }
 
 .numParticipantsButton {
@@ -41,8 +46,49 @@
   display: inline;
 }
 
+.submitParticipantsButton {
+  background-color: rgb(0, 100, 0);
+  color: white;
+  font-size: xx-large;
+  border-style: hidden;
+  border-radius: 6px;
+  height: 70px;
+  width: 300px;
+  margin-bottom: 0px;
+  margin-top: 350px;
+  text-align: center;
+}
+
 .bracketImage {
   align-items: center;
   margin-top: -300px;
   width: 1200px;
+}
+
+#img3-4 {
+  margin-bottom: -250px;
+}
+
+#img5-8 {
+  margin-bottom: -250px;
+}
+
+#img9-16 {
+  margin-top: 0px;
+  margin-bottom: -350px;
+  width: 1500px;
+}
+
+#img17-32 {
+  margin-top: -50px;
+  margin-bottom: -350px;
+  width: 1400px
+}
+
+#btn3-4 {
+  margin-top: -300px;
+}
+
+#btn5-8 {
+  margin-top: -300px
 }
