@@ -3,39 +3,36 @@ import BracketImage from './BracketImage'
 
 function NumParticipantsButton (props) {
     const [showBracketImage, setShowBracketImage] = useState(false)
+    const [participants, setParticipants] = useState(null)
+
     const num = props.participantNum
-    let participants
 
     const handleButtonClick = () => {
+        let updatedParticipants
+
         switch (num) {
             case '3 - 4':
-                participants = '3_4'
-                setShowBracketImage(true)
-                props.handleClick()
+                updatedParticipants = '3_4'
                 break
             case '5 - 8':
-                participants = '5_8'
-                setShowBracketImage(true)
-                props.handleClick()
+                updatedParticipants = '5_8'
                 break
             case '9 - 16':  
-                participants = '9_16'
-                setShowBracketImage(true)
-                props.handleClick()
+                updatedParticipants = '9_16'
                 break
             case '17 - 32':
-                participants = '17_32'
-                setShowBracketImage(true)
-                props.handleClick()
+                updatedParticipants = '17_32'
                 break
             case '33 - 64':
-                participants = '33_64'
-                setShowBracketImage(true)
-                props.handleClick()
+                updatedParticipants = '33_64'
                 break   
             default:
                 throw new Error(`Error: bad value for props.participantNum: ${num}`)
         }
+
+        setParticipants(updatedParticipants)
+        setShowBracketImage(true)
+        props.handleClick()
     }
 
     return (
@@ -43,7 +40,7 @@ function NumParticipantsButton (props) {
             <div style={{display: props.showButton ? 'inline' : 'none' }}>
                 <button onClick={handleButtonClick} className='numParticipantsButton'>{num}</button>
             </div>           
-            {showBracketImage && <BracketImage participantNums={participants} />}
+            {showBracketImage && participants && <BracketImage participantNums={participants} />}
         </div>
     )
 }
