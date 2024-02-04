@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import BracketImage from './BracketImage'
+import TextEntryBoxesContainer from './TextEntryBoxesContainer'
 
 function NumParticipantsButton (props) {
     const [showBracketImage, setShowBracketImage] = useState(false)
@@ -41,6 +42,7 @@ function NumParticipantsButton (props) {
                 <button onClick={handleButtonClick} className='numParticipantsButton'>{num}</button>
             </div>           
             {showBracketImage && participants && <BracketImage participantNums={participants} showButton={true} />}
+            {showBracketImage && participants && <TextEntryBoxesContainer participantNums={participants} />}
         </div>
     )
 }

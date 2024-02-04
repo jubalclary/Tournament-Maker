@@ -22,22 +22,22 @@ function BracketImage (props) {
         }
     }
 
-    const btnId = () => {
-        switch (participantNums) {
-            case '3_4':
-                return `btn3-4`
-            case '5_8':
-                return 'btn5-8'
-            case '9_16':
-                return 'btn9-16'
-            case '17_32':
-                return 'btn17-32'
-            case '33_64':
-                return 'btn33-64'
-            default:
-                throw new Error(`Error: bad value for participantNums: ${participantNums}`)           
-        }
-    }    
+    // const btnId = () => {
+    //     switch (participantNums) {
+    //         case '3_4':
+    //             return `btn3-4`
+    //         case '5_8':
+    //             return 'btn5-8'
+    //         case '9_16':
+    //             return 'btn9-16'
+    //         case '17_32':
+    //             return 'btn17-32'
+    //         case '33_64':
+    //             return 'btn33-64'
+    //         default:
+    //             throw new Error(`Error: bad value for participantNums: ${participantNums}`)           
+    //     }
+    // }    
 
     const imageFilePath = () => {
         switch (participantNums) {
@@ -56,19 +56,22 @@ function BracketImage (props) {
         }
     }
 
-    const handleButtonClick = () => {
-        setShowHeader(false)
-    }
+    // const handleButtonClick = () => {
+    //     setShowHeader(false)
+    // }
 
     return (
         <div>
             {showHeader && <h3>Enter the participant names in the first round of the bracket.</h3>}
             <img className='bracketImage' id={imgId()} src={imageFilePath()} alt='Tournament bracket'></img>
-            <div style={{display: props.showButton ? 'block' : 'none' }}>
-                <button id={btnId()} onClick={handleButtonClick} className='submitParticipantsButton'>Submit Participants</button>
-            </div>
+
         </div>
     )
 }
+
+//Old button
+{/* <div style={{display: props.showButton ? 'block' : 'none' }}>
+<button id={btnId()} onClick={handleButtonClick} className='submitParticipantsButton'>Submit Participants</button>
+</div> */}
 
 export default BracketImage

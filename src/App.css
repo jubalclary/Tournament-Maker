@@ -15,9 +15,8 @@
 
 .App-body {
   background-color: #20242b;
-  min-height: 89vh;
+  min-height: 88.97vh; 
   display: block;
-  flex-direction: column;
   align-items: center;
   justify-content: top;
   font-size: calc(10px + 2vmin);
@@ -65,11 +64,47 @@ h3 {
   width: 1200px;
 }
 
-#img3-4 {
-  margin-bottom: -250px;
+.input3-4 {
+  font-size: x-large;
+  color: white;
+  background-color: #292d35;
+  border: none;
+  text-align: center;
+  width: 250px;
+  height: 40px;
 }
 
-#img5-8 {
+.input5-8 {
+  font-size: large;
+  color: white;
+  background-color:#292d35;
+  border: none;
+  text-align: center;
+  width: 160px;
+  height: 30px;
+}
+
+.input9-16 {
+  font-size: large;
+  color: white;
+  background-color:#292d35;
+  border: none;
+  text-align: center;
+  width: 154px;
+  height: 30px;
+}
+
+.input17-32 {
+  font-size: medium;
+  color: white;
+  background-color:#292d35;
+  border: none;
+  text-align: center;
+  width: 118px;
+  height: 20px;
+}
+
+#img3-4, #img5-8 {
   margin-bottom: -250px;
 }
 
@@ -91,4 +126,391 @@ h3 {
 
 #btn5-8 {
   margin-top: -300px
+}
+
+/* Below is all of the absolute positioning for every input element, and other attributes for the submit buttons. */
+
+#input3-4-1 {
+  position: absolute;
+  top: 410px;
+  left: 765px;
+}
+
+#input3-4-2 {
+  position: absolute;
+  top: 668px;
+  left: 765px;
+}
+
+#input3-4-3 {
+  position: absolute;
+  top: 410px;
+  left: 1541px;
+}
+
+#input3-4-4 {
+  position: absolute;
+  top: 668px;
+  left: 1541px;
+}
+
+#input3-4-submit, #input5-8-submit, #input9-16-submit, #input17-32-submit {
+  background-color: rgb(0, 100, 0);
+  color: white;
+  font-size: xx-large;
+  border-style: hidden;
+  border-radius: 6px;
+  height: 70px;
+  width: 300px;
+  text-align: center;
+}
+
+#input5-8-1 {
+  position: absolute;
+  top: 350px;
+  left: 760px;
+}
+
+#input5-8-2 {
+  position: absolute;
+  top: 513px;
+  left: 760px;
+}
+
+#input5-8-3 {
+  position: absolute;
+  top: 594px;
+  left: 760px;
+}
+
+#input5-8-4 {
+  position: absolute;
+  top: 757px;
+  left: 760px;
+}
+
+#input5-8-5 {
+  position: absolute;
+  top: 350px;
+  left: 1637px;
+}
+
+#input5-8-6 {
+  position: absolute;
+  top: 513px;
+  left: 1637px;
+}
+
+#input5-8-7 {
+  position: absolute;
+  top: 594px;
+  left: 1637px;
+}
+
+#input5-8-8 {
+  position: absolute;
+  top: 757px;
+  left: 1637px;
+}
+
+#input9-16-1 {
+  position: absolute;
+  top: 297px;
+  left: 568px;
+}
+
+#input9-16-2 {
+  position: absolute;
+  top: 396px;
+  left: 568px;
+}
+
+#input9-16-3 {
+  position: absolute;
+  top: 474px;
+  left: 568px;
+}
+
+#input9-16-4 {
+  position: absolute;
+  top: 573px;
+  left: 564px;
+}
+
+#input9-16-5 {
+  position: absolute;
+  top: 685px;
+  left: 568px;
+}
+
+#input9-16-6 {
+  position: absolute;
+  top: 784px;
+  left: 566px;
+}
+
+#input9-16-7 {
+  position: absolute;
+  top: 861px;
+  left: 568px;
+}
+
+#input9-16-8 {
+  position: absolute;
+  top: 960px;
+  left: 567px;
+}
+
+#input9-16-9 {
+  position: absolute;
+  top: 292px;
+  left: 1800px;
+}
+
+#input9-16-10 {
+  position: absolute;
+  top: 391px;
+  left: 1800px;
+}
+
+#input9-16-11 {
+  position: absolute;
+  top: 467px;
+  left: 1800px;
+}
+
+#input9-16-12 {
+  position: absolute;
+  top: 566px;
+  left: 1801px;
+}
+
+#input9-16-13 {
+  position: absolute;
+  top: 680px;
+  left: 1800px;
+}
+
+#input9-16-14 {
+  position: absolute;
+  top: 779px;
+  left: 1803px;
+}
+
+#input9-16-15 {
+  position: absolute;
+  top: 856px;
+  left: 1800px;
+}
+
+#input9-16-16 {
+  position: absolute;
+  top: 955px;
+  left: 1799px;
+}
+
+#input9-16-submit {
+  position: absolute;
+  align-items: center;
+  top: 1050px;
+  left: 1112px;
+}
+
+#input17-32-1 {
+  position: absolute;
+  top: 300px;
+  left: 588px;
+}
+
+#input17-32-2 {
+  position: absolute;
+  top: 347px;
+  left: 588px;
+}
+
+#input17-32-3 {
+  position: absolute;
+  top: 408px;
+  left: 588px;
+}
+
+#input17-32-4 {
+  position: absolute;
+  top: 455px;
+  left: 586px;
+}
+
+#input17-32-5 {
+  position: absolute;
+  top: 507px;
+  left: 586px;
+}
+
+#input17-32-6 {
+  position: absolute;
+  top: 554px;
+  left: 586px;
+}
+
+#input17-32-7 {
+  position: absolute;
+  top: 614px;
+  left: 586px;
+}
+
+#input17-32-8 {
+  position: absolute;
+  top: 661px;
+  left: 586px;
+}
+
+#input17-32-9 {
+  position: absolute;
+  top: 735px;
+  left: 588px;
+}
+
+#input17-32-10 {
+  position: absolute;
+  top: 782px;
+  left: 588px;
+}
+
+#input17-32-11 {
+  position: absolute;
+  top: 841px;
+  left: 584px;
+}
+
+#input17-32-12 {
+  position: absolute;
+  top: 888px;
+  left: 584px;
+}
+
+#input17-32-13 {
+  position: absolute;
+  top: 942px;
+  left: 588px;
+}
+
+#input17-32-14 {
+  position: absolute;
+  top: 989px;
+  left: 588px;
+}
+
+#input17-32-15 {
+  position: absolute;
+  top: 1049px;
+  left: 586px;
+}
+
+#input17-32-16 {
+  position: absolute;
+  top: 1095px;
+  left: 586px;
+}
+
+#input17-32-17 {
+  position: absolute;
+  top: 300px;
+  left: 1804px;
+}
+
+#input17-32-18 {
+  position: absolute;
+  top: 347px;
+  left: 1804px;
+}
+
+#input17-32-19 {
+  position: absolute;
+  top: 408px;
+  left: 1801px;
+}
+
+#input17-32-20 {
+  position: absolute;
+  top: 455px;
+  left: 1801px;
+}
+
+#input17-32-21 {
+  position: absolute;
+  top: 508px;
+  left: 1807px;
+}
+
+#input17-32-22 {
+  position: absolute;
+  top: 555px;
+  left: 1807px;
+}
+
+#input17-32-23 {
+  position: absolute;
+  top: 614px;
+  left: 1803px;
+}
+
+#input17-32-24 {
+  position: absolute;
+  top: 661px;
+  left: 1803px;
+}
+
+#input17-32-25 {
+  position: absolute;
+  top: 735px;
+  left: 1804px;
+}
+
+#input17-32-26 {
+  position: absolute;
+  top: 782px;
+  left: 1804px;
+}
+
+#input17-32-27 {
+  position: absolute;
+  top: 841px;
+  left: 1804px;
+}
+
+#input17-32-28 {
+  position: absolute;
+  top: 888px;
+  left: 1804px;
+}
+
+#input17-32-29 {
+  position: absolute;
+  top: 942px;
+  left: 1804px;
+}
+
+#input17-32-30 {
+  position: absolute;
+  top: 989px;
+  left: 1804px;
+}
+
+#input17-32-31 {
+  position: absolute;
+  top: 1049px;
+  left: 1803px;
+}
+
+#input17-32-32 {
+  position: absolute;
+  top: 1095px;
+  left: 1803px;
+}
+
+#input17-32-submit {
+  align-items: center;
+  position: absolute;
+  top: 1050px;
+  left: 1106px;
 }
