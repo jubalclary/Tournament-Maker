@@ -104,6 +104,14 @@ h3 {
   height: 20px;
 }
 
+.p3-4 {
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+}
+
 #img3-4, #img5-8 {
   margin-bottom: -250px;
 }
@@ -136,9 +144,21 @@ h3 {
   left: 765px;
 }
 
+#p3-4-1 {
+  position: absolute;
+  top: 400px;
+  left: 765px;
+}
+
 #input3-4-2 {
   position: absolute;
   top: 668px;
+  left: 765px;
+}
+
+#p3-4-2 {
+  position: absolute;
+  top: 658px;
   left: 765px;
 }
 
@@ -148,9 +168,21 @@ h3 {
   left: 1541px;
 }
 
+#p3-4-3 {
+  position: absolute;
+  top: 400px;
+  left: 1541px;
+}
+
 #input3-4-4 {
   position: absolute;
   top: 668px;
+  left: 1541px;
+}
+
+#p3-4-4 {
+  position: absolute;
+  top: 658px;
   left: 1541px;
 }
 

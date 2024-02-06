@@ -17,7 +17,6 @@ function NumParticipantsButtonsContainer (props) {
             <NumParticipantsButton participantNum='5 - 8' showButton={showButtons} handleClick={handleClick} />
             <NumParticipantsButton participantNum='9 - 16' showButton={showButtons} handleClick={handleClick} />
             <NumParticipantsButton participantNum='17 - 32' showButton={showButtons} handleClick={handleClick} />
-            <NumParticipantsButton participantNum='33 - 64' showButton={showButtons} handleClick={handleClick} />
         </div>
     )
 }

@@ -23,10 +23,7 @@ function NumParticipantsButton (props) {
                 break
             case '17 - 32':
                 updatedParticipants = '17_32'
-                break
-            case '33 - 64':
-                updatedParticipants = '33_64'
-                break   
+                break  
             default:
                 throw new Error(`Error: bad value for props.participantNum: ${num}`)
         }

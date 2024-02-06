@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
+import ParticipantTexts from './ParticipantTexts'
 
 function TextEntryBoxesContainer (props) {
+    const [inputsVisible, setInputsVisible] = useState(true)
     const [inputValues, setInputValues] = useState({
         input1: '',
         input2: '',
@@ -35,7 +37,7 @@ function TextEntryBoxesContainer (props) {
         input31: '',
         input32: '',
     })
-
+    
     const idToStateKeyMap = {
         'input3-4-1': 'input1',
         'input3-4-2': 'input2',
@@ -111,22 +113,23 @@ function TextEntryBoxesContainer (props) {
                input12, input13, input14, input15, input16, input17, input18, input19, input20, input21,
                input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32} = inputValues;
         //Do something with the input values
-
+        setInputsVisible(false)
     }
     
-
     return (
         <div>
             {props.participantNums === '3_4' && (
+                inputsVisible && (
                 <form onSubmit={handleSubmit}>
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-1' value={inputValues.input1} onChange={handleInputChange} />
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-2' value={inputValues.input2} onChange={handleInputChange} />
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-3' value={inputValues.input3} onChange={handleInputChange} />
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-4' value={inputValues.input4} onChange={handleInputChange} />
                     <input type='submit' value='Submit Participants' id='input3-4-submit' />
-                </form>
+                </form>)
             )}
             {props.participantNums === '5_8' && (
+                inputsVisible && (
                 <form onSubmit={handleSubmit}>
                     <input className='input5-8' type='text' maxLength='9' id='input5-8-1' value={inputValues.input1} onChange={handleInputChange} />
                     <input className='input5-8' type='text' maxLength='9' id='input5-8-2' value={inputValues.input2} onChange={handleInputChange} />
@@ -137,9 +140,10 @@ function TextEntryBoxesContainer (props) {
                     <input className='input5-8' type='text' maxLength='9' id='input5-8-7' value={inputValues.input7} onChange={handleInputChange} />
                     <input className='input5-8' type='text' maxLength='9' id='input5-8-8' value={inputValues.input8} onChange={handleInputChange} />
                     <input type='submit' value='Submit Participants' id='input5-8-submit' />
-                </form>
+                </form>)
             )}
             {props.participantNums === '9_16' && (
+                inputsVisible && (
                 <form onSubmit={handleSubmit}>
                     <input className='input9-16' type='text' maxLength='9' id='input9-16-1' value={inputValues.input1} onChange={handleInputChange} />
                     <input className='input9-16' type='text' maxLength='9' id='input9-16-2' value={inputValues.input2} onChange={handleInputChange} />
@@ -158,9 +162,10 @@ function TextEntryBoxesContainer (props) {
                     <input className='input9-16' type='text' maxLength='9' id='input9-16-15' value={inputValues.input15} onChange={handleInputChange} />
                     <input className='input9-16' type='text' maxLength='9' id='input9-16-16' value={inputValues.input16} onChange={handleInputChange} />
                     <input type='submit' value='Submit Participants' id='input9-16-submit' />
-                </form>
+                </form>)
             )}
             {props.participantNums === '17_32' && (
+                inputsVisible && (
                 <form onSubmit={handleSubmit}>
                     <input className='input17-32' type='text' maxLength='7' id='input17-32-1' value={inputValues.input1} onChange={handleInputChange} />
                     <input className='input17-32' type='text' maxLength='7' id='input17-32-2' value={inputValues.input2} onChange={handleInputChange} />
@@ -195,11 +200,11 @@ function TextEntryBoxesContainer (props) {
                     <input className='input17-32' type='text' maxLength='7' id='input17-32-31' value={inputValues.input31} onChange={handleInputChange} />
                     <input className='input17-32' type='text' maxLength='7' id='input17-32-32' value={inputValues.input32} onChange={handleInputChange} />
                     <input type='submit' value='Submit Participants' id='input17-32-submit' />
-                </form>
+                </form>)                
             )}
+            {(!inputsVisible) && <ParticipantTexts inputs={inputValues} participants={props.participantNums} />}
         </div>
     )
-
 }
 
 export default TextEntryBoxesContainer
