@@ -104,12 +104,28 @@ h3 {
   height: 20px;
 }
 
-.p3-4 {
+.p3-4, .p5-8 {
   font-size: x-large;
   color: white;
   text-align: center;
   width: 250px;
   height: 40px;
+}
+
+.p9-16 {
+  font-size: large;
+  color: white;
+  text-align: center;
+  width: 154px;
+  height: 30px;
+}
+
+.p17-32 {
+  font-size: medium;
+  color: white;
+  text-align: center;
+  width: 154px;
+  height: 30px;
 }
 
 #img3-4, #img5-8 {
@@ -134,6 +150,17 @@ h3 {
 
 #btn5-8 {
   margin-top: -300px
+}
+
+#input3-4-submit, #input5-8-submit, #input9-16-submit, #input17-32-submit {
+  background-color: rgb(0, 100, 0);
+  color: white;
+  font-size: xx-large;
+  border-style: hidden;
+  border-radius: 6px;
+  height: 70px;
+  width: 300px;
+  text-align: center;
 }
 
 /* Below is all of the absolute positioning for every input element, and other attributes for the submit buttons. */
@@ -186,21 +213,16 @@ h3 {
   left: 1541px;
 }
 
-#input3-4-submit, #input5-8-submit, #input9-16-submit, #input17-32-submit {
-  background-color: rgb(0, 100, 0);
-  color: white;
-  font-size: xx-large;
-  border-style: hidden;
-  border-radius: 6px;
-  height: 70px;
-  width: 300px;
-  text-align: center;
-}
-
 #input5-8-1 {
   position: absolute;
   top: 350px;
   left: 760px;
+}
+
+#p5-8-1 {
+  position: absolute;
+  top: 325px;
+  left: 700px;
 }
 
 #input5-8-2 {
@@ -209,10 +231,22 @@ h3 {
   left: 760px;
 }
 
+#p5-8-2 {
+  position: absolute;
+  top: 488px;
+  left: 700px;
+}
+
 #input5-8-3 {
   position: absolute;
   top: 594px;
   left: 760px;
+}
+
+#p5-8-3 {
+  position: absolute;
+  top: 569px;
+  left: 700px;
 }
 
 #input5-8-4 {
@@ -221,10 +255,22 @@ h3 {
   left: 760px;
 }
 
+#p5-8-4 {
+  position: absolute;
+  top: 732px;
+  left: 700px;
+}
+
 #input5-8-5 {
   position: absolute;
   top: 350px;
   left: 1637px;
+}
+
+#p5-8-5 {
+  position: absolute;
+  top: 325px;
+  left: 1610px;
 }
 
 #input5-8-6 {
@@ -233,10 +279,22 @@ h3 {
   left: 1637px;
 }
 
+#p5-8-6 {
+  position: absolute;
+  top: 488px;
+  left: 1610px;
+}
+
 #input5-8-7 {
   position: absolute;
   top: 594px;
   left: 1637px;
+}
+
+#p5-8-7 {
+  position: absolute;
+  top: 569px;
+  left: 1610px;
 }
 
 #input5-8-8 {
@@ -245,10 +303,22 @@ h3 {
   left: 1637px;
 }
 
+#p5-8-8 {
+  position: absolute;
+  top: 732px;
+  left: 1610px;
+}
+
 #input9-16-1 {
   position: absolute;
   top: 297px;
   left: 568px;
+}
+
+#p9-16-1 {
+  position: absolute;
+  top: 290px;
+  left: 571px;
 }
 
 #input9-16-2 {
@@ -257,10 +327,22 @@ h3 {
   left: 568px;
 }
 
+#p9-16-2 {
+  position: absolute;
+  top: 389px;
+  left: 571px;
+}
+
 #input9-16-3 {
   position: absolute;
   top: 474px;
   left: 568px;
+}
+
+#p9-16-3 {
+  position: absolute;
+  top: 467px;
+  left: 571px;
 }
 
 #input9-16-4 {
@@ -269,10 +351,22 @@ h3 {
   left: 564px;
 }
 
+#p9-16-4 {
+  position: absolute;
+  top: 566px;
+  left: 571px;
+}
+
 #input9-16-5 {
   position: absolute;
   top: 685px;
   left: 568px;
+}
+
+#p9-16-5 {
+  position: absolute;
+  top: 679px;
+  left: 571px;
 }
 
 #input9-16-6 {
@@ -281,10 +375,22 @@ h3 {
   left: 566px;
 }
 
+#p9-16-6 {
+  position: absolute;
+  top: 778px;
+  left: 571px;
+}
+
 #input9-16-7 {
   position: absolute;
   top: 861px;
   left: 568px;
+}
+
+#p9-16-7 {
+  position: absolute;
+  top: 855px;
+  left: 571px;
 }
 
 #input9-16-8 {
@@ -293,9 +399,21 @@ h3 {
   left: 567px;
 }
 
+#p9-16-8 {
+  position: absolute;
+  top: 954px;
+  left: 571px;
+}
+
 #input9-16-9 {
   position: absolute;
   top: 292px;
+  left: 1800px;
+}
+
+#p9-16-9 {
+  position: absolute;
+  top: 287px;
   left: 1800px;
 }
 
@@ -305,9 +423,21 @@ h3 {
   left: 1800px;
 }
 
+#p9-16-10 {
+  position: absolute;
+  top: 386px;
+  left: 1800px;
+}
+
 #input9-16-11 {
   position: absolute;
   top: 467px;
+  left: 1800px;
+}
+
+#p9-16-11 {
+  position: absolute;
+  top: 463px;
   left: 1800px;
 }
 
@@ -317,9 +447,21 @@ h3 {
   left: 1801px;
 }
 
+#p9-16-12 {
+  position: absolute;
+  top: 562px;
+  left: 1800px;
+}
+
 #input9-16-13 {
   position: absolute;
   top: 680px;
+  left: 1800px;
+}
+
+#p9-16-13 {
+  position: absolute;
+  top: 675px;
   left: 1800px;
 }
 
@@ -329,9 +471,21 @@ h3 {
   left: 1803px;
 }
 
+#p9-16-14 {
+  position: absolute;
+  top: 774px;
+  left: 1800px;
+}
+
 #input9-16-15 {
   position: absolute;
   top: 856px;
+  left: 1800px;
+}
+
+#p9-16-15 {
+  position: absolute;
+  top: 851px;
   left: 1800px;
 }
 
@@ -339,6 +493,12 @@ h3 {
   position: absolute;
   top: 955px;
   left: 1799px;
+}
+
+#p9-16-16 {
+  position: absolute;
+  top: 950px;
+  left: 1800px;
 }
 
 #input9-16-submit {
@@ -354,10 +514,22 @@ h3 {
   left: 588px;
 }
 
+#p17-32-1 {
+  position: absolute;
+  top: 290px;
+  left: 565px;
+}
+
 #input17-32-2 {
   position: absolute;
   top: 347px;
   left: 588px;
+}
+
+#p17-32-2 {
+  position: absolute;
+  top: 337px;
+  left: 565px;
 }
 
 #input17-32-3 {
@@ -366,10 +538,22 @@ h3 {
   left: 588px;
 }
 
+#p17-32-3 {
+  position: absolute;
+  top: 398px;
+  left: 565px;
+}
+
 #input17-32-4 {
   position: absolute;
   top: 455px;
   left: 586px;
+}
+
+#p17-32-4 {
+  position: absolute;
+  top: 445px;
+  left: 565px;
 }
 
 #input17-32-5 {
@@ -378,10 +562,22 @@ h3 {
   left: 586px;
 }
 
+#p17-32-5 {
+  position: absolute;
+  top: 498px;
+  left: 565px;
+}
+
 #input17-32-6 {
   position: absolute;
   top: 554px;
   left: 586px;
+}
+
+#p17-32-6 {
+  position: absolute;
+  top: 545px;
+  left: 565px;
 }
 
 #input17-32-7 {
@@ -390,10 +586,22 @@ h3 {
   left: 586px;
 }
 
+#p17-32-7 {
+  position: absolute;
+  top: 605px;
+  left: 565px;
+}
+
 #input17-32-8 {
   position: absolute;
   top: 661px;
   left: 586px;
+}
+
+#p17-32-8 {
+  position: absolute;
+  top: 652px;
+  left: 565px;
 }
 
 #input17-32-9 {
@@ -402,10 +610,22 @@ h3 {
   left: 588px;
 }
 
+#p17-32-9 {
+  position: absolute;
+  top: 726px;
+  left: 565px;
+}
+
 #input17-32-10 {
   position: absolute;
   top: 782px;
   left: 588px;
+}
+
+#p17-32-10 {
+  position: absolute;
+  top: 773px;
+  left: 565px;
 }
 
 #input17-32-11 {
@@ -414,10 +634,22 @@ h3 {
   left: 584px;
 }
 
+#p17-32-11 {
+  position: absolute;
+  top: 832px;
+  left: 565px;
+}
+
 #input17-32-12 {
   position: absolute;
   top: 888px;
   left: 584px;
+}
+
+#p17-32-12 {
+  position: absolute;
+  top: 879px;
+  left: 565px;
 }
 
 #input17-32-13 {
@@ -426,10 +658,22 @@ h3 {
   left: 588px;
 }
 
+#p17-32-13 {
+  position: absolute;
+  top: 933px;
+  left: 565px;
+}
+
 #input17-32-14 {
   position: absolute;
   top: 989px;
   left: 588px;
+}
+
+#p17-32-14 {
+  position: absolute;
+  top: 980px;
+  left: 565px;
 }
 
 #input17-32-15 {
@@ -438,10 +682,22 @@ h3 {
   left: 586px;
 }
 
+#p17-32-15 {
+  position: absolute;
+  top: 1040px;
+  left: 565px;
+}
+
 #input17-32-16 {
   position: absolute;
   top: 1095px;
   left: 586px;
+}
+
+#p17-32-16 {
+  position: absolute;
+  top: 1087px;
+  left: 565px;
 }
 
 #input17-32-17 {
@@ -450,10 +706,22 @@ h3 {
   left: 1804px;
 }
 
+#p17-32-17 {
+  position: absolute;
+  top: 290px;
+  left: 1779px;
+}
+
 #input17-32-18 {
   position: absolute;
   top: 347px;
   left: 1804px;
+}
+
+#p17-32-18 {
+  position: absolute;
+  top: 337px;
+  left: 1779px;
 }
 
 #input17-32-19 {
@@ -462,10 +730,22 @@ h3 {
   left: 1801px;
 }
 
+#p17-32-19 {
+  position: absolute;
+  top: 398px;
+  left: 1779px;
+}
+
 #input17-32-20 {
   position: absolute;
   top: 455px;
   left: 1801px;
+}
+
+#p17-32-20 {
+  position: absolute;
+  top: 445px;
+  left: 1779px;
 }
 
 #input17-32-21 {
@@ -474,10 +754,22 @@ h3 {
   left: 1807px;
 }
 
+#p17-32-21 {
+  position: absolute;
+  top: 498px;
+  left: 1779px;
+}
+
 #input17-32-22 {
   position: absolute;
   top: 555px;
   left: 1807px;
+}
+
+#p17-32-22 {
+  position: absolute;
+  top: 545px;
+  left: 1779px;
 }
 
 #input17-32-23 {
@@ -486,10 +778,22 @@ h3 {
   left: 1803px;
 }
 
+#p17-32-23 {
+  position: absolute;
+  top: 605px;
+  left: 1779px;
+}
+
 #input17-32-24 {
   position: absolute;
   top: 661px;
   left: 1803px;
+}
+
+#p17-32-24 {
+  position: absolute;
+  top: 652px;
+  left: 1779px;
 }
 
 #input17-32-25 {
@@ -498,10 +802,22 @@ h3 {
   left: 1804px;
 }
 
+#p17-32-25 {
+  position: absolute;
+  top: 725px;
+  left: 1779px;
+}
+
 #input17-32-26 {
   position: absolute;
   top: 782px;
   left: 1804px;
+}
+
+#p17-32-26 {
+  position: absolute;
+  top: 772px;
+  left: 1779px;
 }
 
 #input17-32-27 {
@@ -510,10 +826,22 @@ h3 {
   left: 1804px;
 }
 
+#p17-32-27 {
+  position: absolute;
+  top: 832px;
+  left: 1779px;
+}
+
 #input17-32-28 {
   position: absolute;
   top: 888px;
   left: 1804px;
+}
+
+#p17-32-28 {
+  position: absolute;
+  top: 879px;
+  left: 1779px;
 }
 
 #input17-32-29 {
@@ -522,10 +850,22 @@ h3 {
   left: 1804px;
 }
 
+#p17-32-29 {
+  position: absolute;
+  top: 932px;
+  left: 1779px;
+}
+
 #input17-32-30 {
   position: absolute;
   top: 989px;
   left: 1804px;
+}
+
+#p17-32-30 {
+  position: absolute;
+  top: 979px;
+  left: 1779px;
 }
 
 #input17-32-31 {
@@ -534,10 +874,22 @@ h3 {
   left: 1803px;
 }
 
+#p17-32-31 {
+  position: absolute;
+  top: 1039px;
+  left: 1779px;
+}
+
 #input17-32-32 {
   position: absolute;
   top: 1095px;
   left: 1803px;
+}
+
+#p17-32-32 {
+  position: absolute;
+  top: 1086px;
+  left: 1779px;
 }
 
 #input17-32-submit {
