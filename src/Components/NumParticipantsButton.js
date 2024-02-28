@@ -37,9 +37,9 @@ function NumParticipantsButton (props) {
         <div style={{display: 'inline'}}>
             <div style={{display: props.showButton ? 'inline' : 'none' }}>
                 <button onClick={handleButtonClick} className='numParticipantsButton'>{num}</button>
-            </div>           
-            {showBracketImage && participants && <BracketImage participantNums={participants} showButton={true} />}
-            {showBracketImage && participants && <TextEntryBoxesContainer participantNums={participants} />}
+            </div>     
+            {showBracketImage && participants && <TextEntryBoxesContainer participantNums={participants} />}      
+            {showBracketImage && participants && <BracketImage participantNums={participants} showButton={true} />}            
         </div>
     )
 }

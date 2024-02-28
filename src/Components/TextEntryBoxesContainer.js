@@ -3,6 +3,7 @@ import ParticipantTexts from './ParticipantTexts'
 
 function TextEntryBoxesContainer (props) {
     const [inputsVisible, setInputsVisible] = useState(true)
+    const [showHeader, setShowHeader] = useState(true)
     const [inputValues, setInputValues] = useState({
         input1: '',
         input2: '',
@@ -114,10 +115,12 @@ function TextEntryBoxesContainer (props) {
                input22, input23, input24, input25, input26, input27, input28, input29, input30, input31, input32} = inputValues;
         //Do something with the input values
         setInputsVisible(false)
+        setShowHeader(false)
     }
     
     return (
         <div>
+            {showHeader && <h3>Enter the participant names in the first round of the bracket.</h3>}
             {props.participantNums === '3_4' && (
                 inputsVisible && (
                 <form onSubmit={handleSubmit}>
@@ -125,7 +128,7 @@ function TextEntryBoxesContainer (props) {
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-2' value={inputValues.input2} onChange={handleInputChange} />
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-3' value={inputValues.input3} onChange={handleInputChange} />
                     <input className='input3-4' type='text' maxLength='11' id='input3-4-4' value={inputValues.input4} onChange={handleInputChange} />
-                    <input type='submit' value='Submit Participants' id='input3-4-submit' />
+                    <input type='submit'  value='Submit Participants' id='input3-4-submit' />
                 </form>)
             )}
             {props.participantNums === '5_8' && (

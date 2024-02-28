@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 
 function BracketImage (props) {
-    const [showHeader, setShowHeader] = useState(true)
-
     const participantNums = props.participantNums
 
     const imgId = () => {
@@ -36,8 +34,7 @@ function BracketImage (props) {
     }
 
     return (
-        <div>
-            {showHeader && <h3>Enter the participant names in the first round of the bracket.</h3>}
+        <div>            
             <img className='bracketImage' id={imgId()} src={imageFilePath()} alt='Tournament bracket'></img>
 
         </div>

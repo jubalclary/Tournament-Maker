@@ -1,14 +1,35 @@
 import React, {useState} from 'react'
 
 function ParticipantTexts (props) {
+    const [showHeader, setShowHeader] = useState(true)
+    const [strikeThrough, setStrikeThrough] = useState(Array(props.inputs.length).fill(false))
+    const [clickedElements, setClickedElements] = useState([])
+
+    const handleClick = (inputNum) => {
+        let complementInputNum
+        if(inputNum % 2 === 0) {
+            complementInputNum = inputNum - 1
+        } else {
+            complementInputNum = inputNum + 1
+        }
+
+        if(clickedElements.includes(inputNum) === false && clickedElements.includes(complementInputNum) === false){           
+            const updatedStrikeThrough = [...strikeThrough]
+            updatedStrikeThrough[complementInputNum - 1] = !updatedStrikeThrough[complementInputNum - 1]       
+            setStrikeThrough(updatedStrikeThrough)
+            setClickedElements([...clickedElements, inputNum])
+        }
+    }
+
     return (
         <div>
+            {showHeader && <h3>Click on a participant to advance them to the next round.</h3>}
             {props.participants === '3_4' && (
                 <div>
-                    <p className='p3-4' id='p3-4-1'>{props.inputs.input1}</p>
-                    <p className='p3-4' id='p3-4-2'>{props.inputs.input2}</p>
-                    <p className='p3-4' id='p3-4-3'>{props.inputs.input3}</p>
-                    <p className='p3-4' id='p3-4-4'>{props.inputs.input4}</p>
+                    <p className={'p3-4 ' + (strikeThrough[0] ? 'strikethrough' : '')} id='p3-4-1' onClick={() => handleClick(1)}>{props.inputs.input1}</p>
+                    <p className={'p3-4 ' + (strikeThrough[1] ? 'strikethrough' : '')} id='p3-4-2' onClick={() => handleClick(2)}>{props.inputs.input2}</p>
+                    <p className={'p3-4 ' + (strikeThrough[2] ? 'strikethrough' : '')} id='p3-4-3' onClick={() => handleClick(3)}>{props.inputs.input3}</p>
+                    <p className={'p3-4 ' + (strikeThrough[3] ? 'strikethrough' : '')} id='p3-4-4' onClick={() => handleClick(4)}>{props.inputs.input4}</p>
                 </div>
             )}
             {props.participants === '5_8' && (

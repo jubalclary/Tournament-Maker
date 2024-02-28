@@ -128,6 +128,10 @@ h3 {
   height: 30px;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 #img3-4, #img5-8 {
   margin-bottom: -250px;
 }
@@ -161,6 +165,17 @@ h3 {
   height: 70px;
   width: 300px;
   text-align: center;
+  position: absolute;
+}
+
+#input3-4-submit {
+  top: 850px;
+  left: 1129px;
+}
+
+#input5-8-submit {
+  top: 850px;
+  left: 1129px;
 }
 
 /* Below is all of the absolute positioning for every input element, and other attributes for the submit buttons. */
@@ -502,7 +517,6 @@ h3 {
 }
 
 #input9-16-submit {
-  position: absolute;
   align-items: center;
   top: 1050px;
   left: 1112px;
@@ -894,7 +908,6 @@ h3 {
 
 #input17-32-submit {
   align-items: center;
-  position: absolute;
   top: 1050px;
   left: 1106px;
 }
