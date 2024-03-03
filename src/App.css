@@ -132,6 +132,22 @@ h3 {
   text-decoration: line-through;
 }
 
+#winnerscreen {
+  background-color: lightblue;
+  color: #000000;
+  border-radius: 15px;
+  position: absolute;
+  top: 1050px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1000px;
+  height: 120px;
+  text-align: center;
+  line-height: 30px;
+}
+
 #img3-4, #img5-8 {
   margin-bottom: -250px;
 }
@@ -228,6 +244,18 @@ h3 {
   left: 1541px;
 }
 
+#p3-4-5 {
+  position: absolute;
+  top: 465px;
+  left: 1040px;
+}
+
+#p3-4-6 {
+  position: absolute;
+  top: 590px;
+  left: 1265px;
+}
+
 #input5-8-1 {
   position: absolute;
   top: 350px;
@@ -322,6 +350,42 @@ h3 {
   position: absolute;
   top: 732px;
   left: 1610px;
+}
+
+#p5-8-9 {
+  position: absolute;
+  top: 450px;
+  left: 915px;
+}
+
+#p5-8-10 {
+  position: absolute;
+  top: 653px;
+  left: 915px;
+}
+
+#p5-8-11 {
+  position: absolute;
+  top: 450px;
+  left: 1395px;
+}
+
+#p5-8-12 {
+  position: absolute;
+  top: 653px;
+  left: 1395px;
+}
+
+#p5-8-13 {
+  position: absolute;
+  top: 495px;
+  left: 1100px;
+}
+
+#p5-8-14 {
+  position: absolute;
+  top: 576px;
+  left: 1207px;
 }
 
 #input9-16-1 {
@@ -514,6 +578,90 @@ h3 {
   position: absolute;
   top: 950px;
   left: 1800px;
+}
+
+#p9-16-17 {
+  position: absolute;
+  top: 355px;
+  left: 742px;
+}
+
+#p9-16-18 {
+  position: absolute;
+  top: 530px;
+  left: 738px;
+}
+
+#p9-16-19 {
+  position: absolute;
+  top: 712px;
+  left: 740px;
+}
+
+#p9-16-20 {
+  position: absolute;
+  top: 890px;
+  left: 741px;
+}
+
+#p9-16-21 {
+  position: absolute;
+  top: 352px;
+  left: 1628px;
+}
+
+#p9-16-22 {
+  position: absolute;
+  top: 528px;
+  left: 1630px;
+}
+
+#p9-16-23 {
+  position: absolute;
+  top: 708px;
+  left: 1631px;
+}
+
+#p9-16-24 {
+  position: absolute;
+  top: 885px;
+  left: 1628px;
+}
+
+#p9-16-25 {
+  position: absolute;
+  top: 495px;
+  left: 910px;
+}
+
+#p9-16-26 {
+  position: absolute;
+  top: 745px;
+  left: 910px;
+}
+
+#p9-16-27 {
+  position: absolute;
+  top: 495px;
+  left: 1460px;
+}
+
+#p9-16-28 {
+  position: absolute;
+  top: 745px;
+  left: 1460px;
+}
+
+#p9-16-29 {
+  position: absolute;
+  top: 583px;
+  left: 1080px;
+}
+
+#p9-16-30 {
+  position: absolute;
+  top: 659px;
+  left: 1290px;
 }
 
 #input9-16-submit {
@@ -904,6 +1052,186 @@ h3 {
   position: absolute;
   top: 1086px;
   left: 1779px;
+}
+
+#p17-32-33 {
+  position: absolute;
+  top: 325px;
+  left: 705px;
+}
+
+#p17-32-34 {
+  position: absolute;
+  top: 432px;
+  left: 705px;
+}
+
+#p17-32-35 {
+  position: absolute;
+  top: 510px;
+  left: 705px;
+}
+
+#p17-32-36 {
+  position: absolute;
+  top: 617px;
+  left: 705px;
+}
+
+#p17-32-37 {
+  position: absolute;
+  top: 760px;
+  left: 705px;
+}
+
+#p17-32-38 {
+  position: absolute;
+  top: 866px;
+  left: 705px;
+}
+
+#p17-32-39 {
+  position: absolute;
+  top: 943px;
+  left: 705px;
+}
+
+#p17-32-40 {
+  position: absolute;
+  top: 1050px;
+  left: 705px;
+}
+
+#p17-32-41 {
+  position: absolute;
+  top: 325px;
+  left: 1650px;
+}
+
+#p17-32-42 {
+  position: absolute;
+  top: 432px;
+  left: 1650px;
+}
+
+#p17-32-43 {
+  position: absolute;
+  top: 510px;
+  left: 1650px;
+}
+
+#p17-32-44 {
+  position: absolute;
+  top: 617px;
+  left: 1650px;
+}
+
+#p17-32-45 {
+  position: absolute;
+  top: 760px;
+  left: 1650px;
+}
+
+#p17-32-46 {
+  position: absolute;
+  top: 866px;
+  left: 1650px;
+}
+
+#p17-32-47 {
+  position: absolute;
+  top: 943px;
+  left: 1650px;
+}
+
+#p17-32-48 {
+  position: absolute;
+  top: 1050px;
+  left: 1650px;
+}
+
+#p17-32-49 {
+  position: absolute;
+  top: 410px;
+  left: 837px;
+}
+
+#p17-32-50 {
+  position: absolute;
+  top: 593px;
+  left: 837px;
+}
+
+#p17-32-51 {
+  position: absolute;
+  top: 780px;
+  left: 837px;
+}
+
+#p17-32-52 {
+  position: absolute;
+  top: 964px;
+  left: 837px;
+}
+
+#p17-32-53 {
+  position: absolute;
+  top: 410px;
+  left: 1518px;
+}
+
+#p17-32-54 {
+  position: absolute;
+  top: 593px;
+  left: 1518px;
+}
+
+#p17-32-55 {
+  position: absolute;
+  top: 780px;
+  left: 1518px;
+}
+
+#p17-32-56 {
+  position: absolute;
+  top: 964px;
+  left: 1518px;
+}
+
+#p17-32-57 {
+  position: absolute;
+  top: 557px;
+  left: 970px;
+}
+
+#p17-32-58 {
+  position: absolute;
+  top: 818px;
+  left: 970px;
+}
+
+#p17-32-59 {
+  position: absolute;
+  top: 557px;
+  left: 1390px;
+}
+
+#p17-32-60 {
+  position: absolute;
+  top: 818px;
+  left: 1390px;
+}
+
+#p17-32-61 {
+  position: absolute;
+  top: 658px;
+  left: 1100px;
+}
+
+#p17-32-62 {
+  position: absolute;
+  top: 717px;
+  left: 1258px;
 }
 
 #input17-32-submit {
