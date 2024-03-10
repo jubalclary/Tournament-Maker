@@ -1,6 +1,7 @@
 # The Tournament Maker
 
 This is a front-end web development project built by John Clary. Using this website, users can create and progress through their own custom tournament brackets. 
+The website was deployed using Github Pages. You can access it here: https://jubalclary.github.io/Tournament-Maker
 
 ## Purpose
 
