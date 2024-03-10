@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jubalclary.github.io/Tournament-Maker/static/css/main.4f606295.css",
-    "main.js": "/jubalclary.github.io/Tournament-Maker/static/js/main.83d3763a.js",
-    "static/js/787.7a69ef94.chunk.js": "/jubalclary.github.io/Tournament-Maker/static/js/787.7a69ef94.chunk.js",
-    "index.html": "/jubalclary.github.io/Tournament-Maker/index.html",
-    "main.4f606295.css.map": "/jubalclary.github.io/Tournament-Maker/static/css/main.4f606295.css.map",
-    "main.83d3763a.js.map": "/jubalclary.github.io/Tournament-Maker/static/js/main.83d3763a.js.map",
-    "787.7a69ef94.chunk.js.map": "/jubalclary.github.io/Tournament-Maker/static/js/787.7a69ef94.chunk.js.map"
+    "main.css": "/Tournament-Maker/static/css/main.4f606295.css",
+    "main.js": "/Tournament-Maker/static/js/main.b44d5458.js",
+    "static/js/787.7a69ef94.chunk.js": "/Tournament-Maker/static/js/787.7a69ef94.chunk.js",
+    "index.html": "/Tournament-Maker/index.html",
+    "main.4f606295.css.map": "/Tournament-Maker/static/css/main.4f606295.css.map",
+    "main.b44d5458.js.map": "/Tournament-Maker/static/js/main.b44d5458.js.map",
+    "787.7a69ef94.chunk.js.map": "/Tournament-Maker/static/js/787.7a69ef94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f606295.css",
-    "static/js/main.83d3763a.js"
+    "static/js/main.b44d5458.js"
   ]
 }
